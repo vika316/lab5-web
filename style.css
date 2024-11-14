@@ -1,0 +1,85 @@
+ /* Стилі для колонтитулів, колонок та навігації */
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Стилі для навігації */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+
+}
+
+nav ol li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+nav ol li a:hover {
+    text-decoration: underline;
+        background-color: #dcdcdc; /* колір фону при наведенні */
+        list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.left-column, .right-column {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.right-column table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-column img {
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+.zoomable {
+    transition: transform 0.3s ease; /* Додаємо плавний перехід */
+}
+
+.zoomable:hover {
+    transform: scale(1.5); /* Збільшення на 1.5 рази при наведенні */
+}

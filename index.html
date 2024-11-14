@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин гаджетів</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> <!-- Підключення JavaScript-файлу -->
+</head>
+<body>
+    
+    <!-- Верхній колонтитул -->
+    <header>
+        <h1>Вітаємо в магазині гаджетів!</h1>
+    </header>
+
+    <!-- Навігація -->
+    <nav>
+        <ol>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="categories.html">Категорії</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ol>
+    </nav>
+
+    <!-- Основний вміст з лівою та правою панелями -->
+    <div class="container">
+        <!-- Ліва панель -->
+        <aside class="left-column">
+            <h2 id="categories-title">Категорії товарів</h2>
+            <ol id="categories">
+                <li>Телефони</li>
+                <li>Планшети</li>
+                <li>Ноутбуки</li>
+                <li>Аксесуари</li>
+            </ol>
+        </aside>
+
+        <!-- Основний контент -->
+        <main id="home">
+            <h2>Головна сторінка</h2>
+            <p>Вітаємо вас у нашому магазині!</p>
+        </main>
+
+        <!-- Права панель -->
+        <aside class="right-column" id="products">
+            <h2 id="products-title">Товари</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Телефони</th>
+                        <th>Планшети</th>
+                        <th>Ноутбуки</th>
+                        <th>Аксесуари</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Samsung</td>
+                        <td>Samsung</td>
+                        <td>Samsung</td>
+                        <td>Захисне скло</td>
+                    </tr>
+                    <tr>
+                        <td>Lenovo</td>
+                        <td>Lenovo</td>
+                        <td>Lenovo</td>
+                        <td>Чохли</td>
+                    </tr>
+                    <tr>
+                        <td>Apple</td>
+                        <td>Apple</td>
+                        <td>Apple</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Огляд на Samsung A35</h2>
+            <img src="img/A35.webp" alt="Маленька картинка" title="Фото" width="300" height="350" class="zoomable">
+
+
+            <iframe width="350" height="197" src="https://www.youtube.com/embed/if-kv2qiG-4?si=PD_HnmtgkTcr7D4r" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </aside>
+    </div>
+
+    <!-- Нижній колонтитул -->
+    <footer id="contact">
+        <p>Магазин гаджетів</p>
+    </footer>
+
+</body>
+</html>
